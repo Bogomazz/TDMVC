@@ -9,7 +9,7 @@ namespace TowerDefenceMVC.DAL
 {
     public class Repo
     {
-        List<Game> games = new List<Game>();
+        static List<Game> games = new List<Game>();
 
         public void Add(Game g)
         {
