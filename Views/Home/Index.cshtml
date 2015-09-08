@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/Style/StyleFirstPage.css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+   
+    <a href="~/Views/Home/Contact.cshtml">
+        <div id="defence">
+            @Html.ActionLink("Attack", "Attack");
+        </div>
+    </a>
+    <a href="~/Views/Home/Contact.cshtml">
+        <div id="attack">
+            @Html.ActionLink("Defence", "Defence");
+        </div>
+    </a>
+</body>
+</html>
