@@ -73,3 +73,7 @@ C:\Users\Антон\Documents\Visual Studio 2013\Projects\HelloWorldMVC\TowerDef
 C:\Users\Антон\Documents\Visual Studio 2013\Projects\HelloWorldMVC\TowerDefenceMVC\obj\Debug\TowerDefenceMVC.dll
 C:\Users\Антон\Documents\Visual Studio 2013\Projects\HelloWorldMVC\TowerDefenceMVC\obj\Debug\TowerDefenceMVC.pdb
 C:\Users\Антон\Documents\Visual Studio 2013\Projects\HelloWorldMVC\TowerDefenceMVC\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Антон\Documents\Visual Studio 2013\Projects\HelloWorldMVC\TowerDefenceMVC\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Антон\Documents\Visual Studio 2013\Projects\HelloWorldMVC\TowerDefenceMVC\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Антон\Documents\Visual Studio 2013\Projects\HelloWorldMVC\TowerDefenceMVC\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Антон\Documents\Visual Studio 2013\Projects\HelloWorldMVC\TowerDefenceMVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
