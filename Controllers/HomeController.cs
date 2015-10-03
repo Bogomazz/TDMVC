@@ -11,7 +11,7 @@ namespace TowerDefenceMVC.Controllers
     [Authorize]
     public class HomeController : Controller
     {
-        Repo repo = new Repo();
+        Repository repo = new Repository();
 
         public ActionResult Index()
         {
@@ -20,25 +20,11 @@ namespace TowerDefenceMVC.Controllers
 
         public ActionResult Attack()
         {
-            if (repo.IsClear())
-                repo.Add(new Game() { AttackerName = User.Identity.Name });
-            else
-            {
-                repo.AddToGameWithDefender(User.Identity.Name);
-            }
-
             return View();
         }
 
-        public ActionResult Defence()
+        public ActionResult Defense()
         {
-            if (repo.IsClear())
-                repo.Add(new Game() { DeffenderName = User.Identity.Name });
-            else
-            {
-                repo.AddToGameWithAttacker(User.Identity.Name);
-            }
-
             return View();
         }
 

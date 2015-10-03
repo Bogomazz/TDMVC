@@ -11,21 +11,18 @@ namespace TowerDefenceMVC.Models
     public class Game
     {
         public string AttackerName { set; get; }
+
         public string DeffenderName { set; get; }
-
+        
         public int CurrentWave { set; get; }
-
+        
         public Field field { set; get; }
 
-        public List<Monster> MonstersWaveOne = new List<Monster>() { new Soldier(), new Soldier(), new Soldier(), new Soldier(), new Soldier(), new Soldier() };
-        List<Monster> MonstersWaveTwo = new List<Monster>() { new Soldier(), new Soldier(), new Soldier(), new Soldier(), new Tank(), new Tank(), new Fighter()};
-        List<Monster> MonstersWaveThree = new List<Monster>();
+        public int Id { set; get; }
 
-        List<Tower> TowersWaveOne = new List<Tower>();
-        List<Tower> TowersWaveTwo = new List<Tower>();
-        List<Tower> TowersWaveThree = new List<Tower>();
+        //id, присваиваемые игрокам при подключении в игру (для SignalR)
+        public string ConnectionDefId { set; get; }
 
-        
-    
+        public string ConnectionAtId { set; get; }
     }
 }

@@ -1,15 +1,31 @@
 ﻿
 @{
-    ViewBag.Title = "Attack";
+    Layout = null;
 }
 
-<div id="div">
-    
-</div>
+<!DOCTYPE html>
 
-<script>
-    var a = JSON.parse(@ViewBag.FirstWave);
-    document.getElementById("div").innerHTML(a);
-</script>
-<h2>Attack</h2>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Attack</title>
+</head>
+<body>
+    <div id="monsterLine">
 
+    </div>
+
+    <div id="game">
+
+    </div>
+
+    <div id="controlPanel">
+
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="/signalr/js"></script>
+    <script src="~/Scripts/Client/client.js"></script>
+</body>
+</html>
