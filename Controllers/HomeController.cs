@@ -8,26 +8,25 @@ using TowerDefenceMVC.Models;
 
 namespace TowerDefenceMVC.Controllers
 {
-    [Authorize]
+    
     public class HomeController : Controller
     {
-        Repository repo = new Repository();
-
+        [Authorize]
         public ActionResult Index()
         {
             return View();
         }
-
+        [Authorize]
         public ActionResult Attack()
         {
             return View();
         }
-
+        [Authorize]
         public ActionResult Defense()
         {
             return View();
         }
-
+        [Authorize]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

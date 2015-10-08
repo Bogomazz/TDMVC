@@ -51,10 +51,11 @@ namespace TowerDefenceMVC.DAL
                 if (game.AttackerName == null)
                 {
                     game.AttackerName = attakerName;
+                    db.SubmitChanges();
                     return game.Id;
                 }
             }
-            db.SubmitChanges();
+            
 
             //Заменить на собственное исключение отсутствия игры без атакующего
             throw new Exception();
@@ -73,10 +74,11 @@ namespace TowerDefenceMVC.DAL
                 if (game.DefenderName == null)
                 {
                     game.DefenderName = deffenderName;
+                    db.SubmitChanges();
                     return game.Id;
                 }
             }
-            db.SubmitChanges();
+            
 
             //Заменить на собственное исключение отсутствия игры без атакующего
             throw new Exception();

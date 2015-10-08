@@ -1,27 +1,19 @@
 ﻿
 @{
-    Layout = null;
+    ViewBag.Title = "Index";
 }
 
-<!DOCTYPE html>
+<h2>Index</h2>
 
-<html>
-<head>
-    <link rel="stylesheet" href="~/Style/StyleFirstPage.css" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-   
-    <a href="~/Views/Home/Contact.cshtml">
-        <div id="defence">
-            @Html.ActionLink("Attack", "Attack");
-        </div>
-    </a>
-    <a href="~/Views/Home/Contact.cshtml">
-        <div id="attack">
-            @Html.ActionLink("Defense", "Defense");
-        </div>
-    </a>
-</body>
-</html>
+<link rel="stylesheet" href="~/Style/StyleFirstPage.css">
+
+<a href="~/Views/Home/Contact.cshtml">
+    <div id="defence">
+        @Html.ActionLink("Attack", "Attack");
+    </div>
+</a>
+<a href="~/Views/Home/Contact.cshtml">
+    <div id="attack">
+        @Html.ActionLink("Defense", "Defense");
+    </div>
+</a>
